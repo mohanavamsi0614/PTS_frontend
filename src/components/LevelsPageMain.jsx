@@ -2,7 +2,7 @@ import { FiBookOpen, FiLogOut, FiZap, FiAward, FiLock, FiBarChart2, FiCalendar }
 import { FaCrown } from 'react-icons/fa';
 import LevelCalendar from './LevelCalendarMain';
 import { useNavigate } from "react-router-dom";
-import ProgressDashboard from './ProgressDashboard';
+import ProgressDashboard from './ProgressDashboardMain';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
