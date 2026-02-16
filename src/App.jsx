@@ -6,6 +6,7 @@ import AdminDashboard from "./components/AdminDashboard.jsx";
 import AdminTestManagement from "./components/LevelsManagement.jsx";
 import TestTakingPage from "./components/testTakingPage.jsx";
 import ResultPage from "./components/ResultPage.jsx";
+import LevelsPage from "./components/LevelsPage.jsx";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { useEffect, useState } from "react";
 
