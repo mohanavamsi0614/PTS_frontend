@@ -264,13 +264,22 @@ function TestTakingPage() {
 				correctAnswers: correctCount,
 				totalQuestions: testData.questions.length,
 
-				// Reading Metrics
+				// Reading Metrics (flat — for easy access)
 				wpm,
 				accuracy,
 				completion,
 				total_time,
 				correct_words,
 				words_read,
+
+				// Reading Metrics (nested — saved to DB for dashboard)
+				reading: {
+					total_time,
+					correct_words_read: correct_words,
+					words_read,
+					speed_wpm_correct: wpm,
+					accuracy
+				},
 
 				// Meta
 				level,
